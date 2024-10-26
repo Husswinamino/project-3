@@ -3,218 +3,203 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 300px;
+    margin: 10px 200px;
     background-color: whitesmoke;
-    color: rgb(155, 155, 155);
 }
 header {
-    background-color: gainsboro;
-    margin: 0px -300px;
-    padding: 0px 300px;
+    background-color: orangered;
+    height: 200px;
+    color: white;
+    text-align: center;
 }
-.h1 {
+.header-first {
     display: flex;
-    justify-content: space-between;
-    background-color: dimgrey;
-    padding: 25px;
-}
-.gusto {
+    justify-content: center;
+    gap: 100px;
+    padding-top: 60px;
+    margin-bottom: 60px;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-.to {
-    color: grey;
-}
-.header-text {
-    color: white;
-    font-size: 12px;
-    margin-top: 7px;
-}
-.view {
-    color: grey;
+    text-decoration: none;
 }
 main {
+    padding: 20px;
     background-color: white;
-    padding: 25px;
+    padding-bottom: 30px;
 }
-main p {
-    font-size: 11px;
-    margin: 10px 0px;
-}
-main h5 {
-    color: dimgray;
-    margin-top: 10px;
-}
-main button {
-    color: white;
-    padding: 8px;
-    background-color: dimgray;
-    border: 1px solid dimgray;
-    pointer-events: visible;
-    margin-bottom: 25px;
-}
-main button:hover {
-    color:black;
-    background-color: whitesmoke;
-    padding: 10px;
-    border: 1px solid white;
-}
-.first img {
-    width: 100%;
-}
-main hr {
-    border: 1px solid whitesmoke;
-    margin-bottom: 25px;
-}
-.second {
+.mail {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(227, 227, 227);
+    margin: -20px;
+    padding: 15px;
+    margin-bottom: 1px;
 }
-.second img {
-    width: 100%;
+.a11 {
+    color: orangered;
 }
-.boxes {
-    display: flex;
-    justify-content: space-between;
+.a112 {
+    font-weight: bold;
+    font-size: 25px;
+    color: grey;
+}
+.mail a {
+    color: silver;
+    text-decoration: none;
+}
+.claa-to-action {
+    background-color: rgb(237, 235, 235);
+    padding: 20px;
+    margin: -20px;
     text-align: center;
     margin-bottom: 25px;
 }
-.a {
-    border: 1px solid rgb(211, 210, 210);
-    display: inline-block;
-    padding: 30px 25px;
-    background-color: rgb(211, 210, 210);
+.claa-to-action p {
+    color: silver;
+    margin-bottom: 25px;
 }
-.b {
-    border: 1px solid rgb(211, 210, 210);
-    display: inline-block;
-    padding: 30px 25px;
-    background-color: rgb(211, 210, 210);
+.claa-to-action button {
+    border: 1px solid orangered;
+    padding: 10px 13px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
 }
-.c {
-    border: 1px solid rgb(211, 210, 210);
-    display: inline-block;
-    padding: 30px 25px;
-    background-color: rgb(211, 210, 210);
+.article1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.article-1 img {
+    width: 120px;
+    height: 120px;
+}
+.article1-text button {
+    border: 1px solid orangered;
+    padding: 8px 13px;
+    background-color: orangered;
+    color: white;
+    margin-top: 15px;
+}
+main hr {
+    border: 1px solid orangered;
+    margin-bottom: 15px;
+
+}
+.titles img {
+    height: 120px;
+    width: 200px;
+    margin-bottom: 15px;
+}
+.titles1 {
+    display: flex;
+    gap: 40px;
+}
+.title1 h3 {
+    margin-bottom: 20px;
+}
+.title1 p {
+    font-size: 15px;
+    color: silver;
+    margin-bottom: 10px;
+}
+.title1 button {
+    border: 1px solid orangered;
+    padding: 8px 13px;
+    background-color: orangered;
+    color: white;
+}
+.title2 h3 {
+    margin-bottom: 20px;
+}
+.title2 p {
+    font-size: 15px;
+    color: silver;
+    margin-bottom: 10px;
+}
+.title2 button {
+    border: 1px solid orangered;
+    padding: 8px 13px;
+    background-color: orangered;
+    color: white;
+}
+.titles2 {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 footer {
-    background-color: gainsboro;
-    margin: 0px -300px;
-    padding: 0px 300px;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+    height: 300px;
 }
-.first-section {
-    background-color: lightgray;
-    padding: 25px;
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
-.first-section h5 {
-    font-size: 20px;
-    color: dimgray;
-}
-.first-section a {
+.footer-content a {
     text-decoration: none;
-    color: black;
-    letter-spacing: 5px;
-}
-.card {
-    background-color: dimgray;
-    padding: 25px;
-    color: white;
-    font-size: 13px;
-}
-.second-section {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-.links {
-    text-decoration: none;
-    line-height: 1.5;
     color: white;
 }
-.lastly {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    color: rgb(148, 148, 148);
-    font-size: 11px;
+.we {
+    margin-bottom: 30px;
 }
-.viewonline a {
-    color: rgb(148, 148, 148);
-    text-decoration: none;
+.mmailly {
+    margin-bottom: 30px;
 }
-.gussto {
-    color: white;
-    text-decoration: none;
+.c123 {
+    margin-bottom: 40px;
+}
+.mails {
+    margin-bottom: 30px;
+}
+.newsletter {
+    margin-bottom: 30px;
 }
 @media (max-width: 900px) {
     body {
-        margin: 0px 80px;
+        margin: 10px 40px;
+        font-size: 15px;
+        align-items: center;
     }
-    body img {
-        width: 100%;
-    }
-    header {
-        margin: 0px -80px;
-        padding: 0px 80px;
-    }
-    footer {
-        margin: 0px -80px;
-        padding: 0px 80px;
-    }
-    .first-section a {
-        letter-spacing: 3px;
-    }
-    .second {
-        gap: 20px;
+    .header-first {
+        gap: 40px;
+        margin-bottom: 40px;
     }
 }
-
-
 @media (max-width: 500px) {
     body {
-        margin: 0px 40px;
-    }
-    body img {
-        width: 100%;
+        font-size: 10px;
+        margin: 20px 40px;
     }
     header {
-        margin: 0px -40px;
-        padding: 0px 40px;
+        height: 160px;
     }
-    footer {
-        margin: 0px -40px;
-        padding: 0px 40px;
-    }
-    .first-section a {
-        letter-spacing: 1px;
-    }
-    .second {
-        gap: 20px;
-    }
-    .boxes {
-        padding: 15px 10px;
-        gap: 20px;
+    .titles1 {
         flex-direction: column;
     }
-    .first-section h5  {
-        font-size: 16px;
+    .titles2 {
+        flex-direction: column;
     }
-    footer {
+    .article1 {
+        flex-direction: column;
+    }
+    .a112 {
+        font-size: 18px;
+    }
+    .claa-to-action button {
+        padding: 7px 10px;
         font-size: 12px;
     }
-    .lastly {
-        font-size: 7px;
+    .claa-to-action p {
+        font-size: 8px;
     }
-    .second-section {
-        flex-direction: column;
-    }
-    .loorem {
-        margin-bottom: 10px;
+    footer {
+        height: 230px;
     }
 }
